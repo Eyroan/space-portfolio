@@ -233,12 +233,12 @@ export const FULLSTACK_SKILL = [
   //   width: 70,
   //   height: 70,
   // },
-  {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
-  },
+  // {
+  //   skill_name: "Docker",
+  //   image: "docker.png",
+  //   width: 70,
+  //   height: 70,
+  // },
   {
     skill_name: "Figma",
     image: "figma.png",
