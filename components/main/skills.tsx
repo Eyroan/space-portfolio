@@ -32,7 +32,7 @@ export const Skills = () => {
       </div>
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {FRONTEND_SKILL.map((skill, i) => (
+        {/* {FRONTEND_SKILL.map((skill, i) => (
           <SkillDataProvider
             key={skill.skill_name}
             src={skill.image}
@@ -41,7 +41,7 @@ export const Skills = () => {
             height={skill.height}
             index={i}
           />
-        ))}
+        ))} */}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {BACKEND_SKILL.map((skill, i) => (
@@ -68,7 +68,7 @@ export const Skills = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {OTHER_SKILL.map((skill, i) => (
+        {/* {OTHER_SKILL.map((skill, i) => (
           <SkillDataProvider
             key={skill.skill_name}
             src={skill.image}
@@ -77,12 +77,12 @@ export const Skills = () => {
             height={skill.height}
             index={i}
           />
-        ))}
+        ))} */}
       </div>
 
       <div className="w-full h-full absolute">
         <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
-          <video
+          {/* <video
             className="w-full h-auto"
             preload="false"
             playsInline
@@ -91,7 +91,7 @@ export const Skills = () => {
             autoPlay
           >
             <source src="/videos/skills-bg.webm" type="video/webm" />
-          </video>
+          </video> */}
         </div>
       </div>
     </section>
