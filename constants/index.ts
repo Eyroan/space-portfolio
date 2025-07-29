@@ -285,6 +285,11 @@ export const FOOTER_DATA = [
     title: "Community",
     data: [
       {
+        name: "YouTube",
+        icon: FaYoutube,
+        link: "https://youtube.com",
+      },
+      {
         name: "GitHub",
         icon: RxGithubLogo,
         link: "https://github.com/Eyroan",
@@ -294,30 +299,25 @@ export const FOOTER_DATA = [
         icon: RxDiscordLogo,
         link: "https://discord.com/users/rapline0993",
       },
-      {
-        name: "-",
-        // icon: FaYoutube,
-        link: "https://youtube.com",
-      },
     ],
   },
   {
     title: "Social Media",
     data: [
       {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com/in/aaron-carian-530067377/",
-      },
-      {
-        name: "-",
-        // icon: RxInstagramLogo,
+        name: "Instagram",
+        icon: RxInstagramLogo,
         link: "https://instagram.com",
       },
       {
-        name: "-",
-        // icon: RxTwitterLogo,
+        name: "Twitter",
+        icon: RxTwitterLogo,
         link: "https://twitter.com",
+      },
+      {
+        name: "Linkedin",
+        icon: RxLinkedinLogo,
+        link: "https://linkedin.com/in/aaron-carian-530067377/",
       },
     ],
   },
