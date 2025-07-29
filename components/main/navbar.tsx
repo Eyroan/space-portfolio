@@ -47,7 +47,7 @@ export const Navbar = () => {
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+              className="cursor-pointer hover:text-[#00BFFF] transition"
             >
               Source Code
             </Link>
